@@ -1,0 +1,90 @@
+.App {
+background-color: rgb(41, 41, 41);
+}
+
+
+.ColorButton {
+    border: 5px solid rgb(0, 0, 0);
+
+    border-color: black;
+}
+
+
+.BrushButton {
+    border: 5px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+}
+
+.brush1 {
+    background: linear-gradient(to right, 
+        #fff 0%, #fff 10%,
+        Transparent 10%, Transparent 90%,
+        #fff 90%,#fff 100%
+    ), 
+    linear-gradient(to bottom, 
+        #fff 0%,#fff 45%,
+        #333333 45%, #333333 55%,
+        #fff 55%,#fff 100%
+    );
+}
+.brush2 {
+    background: linear-gradient(to right, 
+        #fff 0%, #fff 10%,
+        Transparent 10%, Transparent 90%,
+        #fff 90%,#fff 100%
+    ), 
+    linear-gradient(to bottom, 
+        #fff 0%,#fff 40%,
+        #333333 40%, #333333 60%,
+        #fff 60%,#fff 100%
+    );
+}
+.brush4 {
+    background: linear-gradient(to right, 
+        #fff 0%, #fff 10%,
+        Transparent 10%, Transparent 90%,
+        #fff 90%,#fff 100%
+    ), 
+    linear-gradient(to bottom, 
+        #fff 0%,#fff 30%,
+        #333333 30%, #333333 70%,
+        #fff 70%,#fff 100%
+    );
+}
+.brushOption {
+    border: 5px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+}
+
+.brushOption.disabled {
+    border: 5px solid rgb(0, 0, 0);
+    background-color: rgb(109, 109, 109);
+    border-color: black;
+}
+
+.customButton {
+    border: 5px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+}
+
+
+.newFrameButton,
+.AnimationFrame {
+    border: 5px solid rgb(0, 0, 0);
+    /* border-radius: 5px; */
+    border-color: black;
+}
+
+.newFrameButton {
+    background-color: azure;
+}
+
+
+.Preview {
+    border: 5px solid rgb(0, 0, 0);
+    /* border-radius: 5px; */
+    border-color: black;
+}

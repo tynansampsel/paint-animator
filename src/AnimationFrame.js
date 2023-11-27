@@ -1,9 +1,15 @@
-import React from "react";
-function AnimationFrame(props) {
+import React,{ forwardRef, useEffect } from "react";
 
-  return (
-    <img className="AnimationFrame"></img>
-  );
-}
+
+const AnimationFrame = forwardRef((props, ref) => {
+	return (
+		<img 
+			className="AnimationFrame" 
+			src={props.image} 
+			alt="Embedded Image"
+			ref={ref}
+		/>
+	);
+})
 
 export default AnimationFrame;
