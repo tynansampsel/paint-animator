@@ -40,27 +40,27 @@ const palette = [
 	},
 	{
 		name: "teal", 
-		color: "#000000" 
+		color: "#00FFFF" 
 	},
 	{ 
 		name: "light green", 
-		color: "#FFFFFF" 
+		color: "#77ff6b" 
 	},
 	{ 
 		name: "orange", 
-		color: "#0000FF" 
+		color: "#ff7300" 
 	},
 	{ 
 		name: "brown", 
-		color: "#FF0000" 
+		color: "#874a18" 
 	},
 	{ 
 		name: "purple", 
-		color: "#00FF00" 
+		color: "#FF00FF" 
 	},
 	{ 
 		name: "gray", 
-		color: "#FFFF00" 
+		color: "#AAAAAA" 
 	}
 ]
 
